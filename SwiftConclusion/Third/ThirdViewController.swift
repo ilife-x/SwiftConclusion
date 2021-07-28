@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ThirdViewController.swift
 //  SwiftConclusion
 //
 //  Created by xiao on 2021/7/28.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ThirdViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
 
+    }
+    
 
 }
-
