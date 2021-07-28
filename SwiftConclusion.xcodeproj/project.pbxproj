@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -87,7 +87,6 @@
 				B0694BADF00603A112D2A007 /* Pods-SwiftConclusion.debug.xcconfig */,
 				55E532E3B280AA77E95B6460 /* Pods-SwiftConclusion.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -116,13 +115,11 @@
 		11B5946826B1534600DDDD4A /* SwiftConclusion */ = {
 			isa = PBXGroup;
 			children = (
+				11B5949926B16F8B00DDDD4A /* Resources */,
 				11B5946926B1534600DDDD4A /* AppDelegate.swift */,
 				11B5946B26B1534600DDDD4A /* SceneDelegate.swift */,
 				11B5946D26B1534600DDDD4A /* ViewController.swift */,
 				11B5946F26B1534600DDDD4A /* Main.storyboard */,
-				11B5947226B1534A00DDDD4A /* Assets.xcassets */,
-				11B5947426B1534A00DDDD4A /* LaunchScreen.storyboard */,
-				11B5947726B1534A00DDDD4A /* Info.plist */,
 			);
 			path = SwiftConclusion;
 			sourceTree = "<group>";
@@ -143,6 +140,16 @@
 				11B5948D26B1534A00DDDD4A /* Info.plist */,
 			);
 			path = SwiftConclusionUITests;
+			sourceTree = "<group>";
+		};
+		11B5949926B16F8B00DDDD4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11B5947226B1534A00DDDD4A /* Assets.xcassets */,
+				11B5947426B1534A00DDDD4A /* LaunchScreen.storyboard */,
+				11B5947726B1534A00DDDD4A /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		237388AFCFD6EC3425C5230C /* Frameworks */ = {
@@ -508,7 +515,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E75BGBW7FV;
-				INFOPLIST_FILE = SwiftConclusion/Info.plist;
+				INFOPLIST_FILE = SwiftConclusion/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -528,7 +535,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E75BGBW7FV;
-				INFOPLIST_FILE = SwiftConclusion/Info.plist;
+				INFOPLIST_FILE = SwiftConclusion/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
