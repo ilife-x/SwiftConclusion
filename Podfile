@@ -44,8 +44,9 @@ target 'SwiftConclusion' do
     pod 'SnapKit', '~> 5.0.0'
 
     # 喵神王巍写的一款关于图片下载、缓存的框架 18.7k
+#    pod 'Kingfisher', '~> 7.0'
+    pod 'KakaJSON', '~> 1.1.2'
 
-    pod 'Kingfisher','~> 7.0'
 
 
 
