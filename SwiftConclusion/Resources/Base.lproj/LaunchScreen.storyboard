@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -16,17 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="8Xp-ge-BMo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Xp-ge-BMo" userLabel="image">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="8Xp-ge-BMo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1f7-bm-Lh4"/>
+                            <constraint firstItem="8Xp-ge-BMo" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="B0Q-Ze-fJe"/>
                             <constraint firstItem="8Xp-ge-BMo" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="CmL-Si-dYs"/>
                             <constraint firstAttribute="bottom" secondItem="8Xp-ge-BMo" secondAttribute="bottom" id="Jxp-TL-OkY"/>
                             <constraint firstItem="8Xp-ge-BMo" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="QCC-VH-fny"/>
                             <constraint firstAttribute="trailing" secondItem="8Xp-ge-BMo" secondAttribute="trailing" id="d6n-UD-Zuu"/>
+                            <constraint firstItem="8Xp-ge-BMo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kpq-s8-G8S"/>
+                            <constraint firstAttribute="bottom" secondItem="8Xp-ge-BMo" secondAttribute="bottom" id="mab-Ms-u97"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -36,7 +40,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Image" width="375" height="812"/>
+        <image name="launch.png" width="562.5" height="1218"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

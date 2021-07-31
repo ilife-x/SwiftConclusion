@@ -18,6 +18,9 @@
 		11B594A526B1937F00DDDD4A /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B594A426B1937F00DDDD4A /* SettingViewController.swift */; };
 		11B594A726B1939100DDDD4A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B594A626B1939000DDDD4A /* ThirdViewController.swift */; };
 		11B594AD26B2DC2B00DDDD4A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B594AC26B2DC2B00DDDD4A /* API.swift */; };
+		11B594B026B3EB9D00DDDD4A /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B594AF26B3EB9D00DDDD4A /* Tabbar.swift */; };
+		11E6BB2626B4FA8F003C6DD5 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E6BB2526B4FA8F003C6DD5 /* launch.png */; };
+		11E6BB2826B4FBC8003C6DD5 /* city.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E6BB2726B4FBC8003C6DD5 /* city.png */; };
 		91824234AABF7E665480C936 /* Pods_SwiftConclusion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B29DB3FCD7CBF8DA052B728 /* Pods_SwiftConclusion.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +60,9 @@
 		11B594A626B1939000DDDD4A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		11B594A826B2C88B00DDDD4A /* SwiftConclusion-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftConclusion-Bridging-Header.h"; sourceTree = "<group>"; };
 		11B594AC26B2DC2B00DDDD4A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		11B594AF26B3EB9D00DDDD4A /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		11E6BB2526B4FA8F003C6DD5 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		11E6BB2726B4FBC8003C6DD5 /* city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city.png; sourceTree = "<group>"; };
 		55E532E3B280AA77E95B6460 /* Pods-SwiftConclusion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftConclusion.release.xcconfig"; path = "Target Support Files/Pods-SwiftConclusion/Pods-SwiftConclusion.release.xcconfig"; sourceTree = "<group>"; };
 		6B29DB3FCD7CBF8DA052B728 /* Pods_SwiftConclusion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftConclusion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0694BADF00603A112D2A007 /* Pods-SwiftConclusion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftConclusion.debug.xcconfig"; path = "Target Support Files/Pods-SwiftConclusion/Pods-SwiftConclusion.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +128,7 @@
 		11B5946826B1534600DDDD4A /* SwiftConclusion */ = {
 			isa = PBXGroup;
 			children = (
+				11E6BB2426B4FA70003C6DD5 /* images */,
 				11B5946926B1534600DDDD4A /* AppDelegate.swift */,
 				11B594A126B1930D00DDDD4A /* Third */,
 				11B594A026B192FC00DDDD4A /* Setting */,
@@ -167,6 +174,7 @@
 				11B5949C26B192B600DDDD4A /* BaseNavigationController.swift */,
 				11B5949A26B1921100DDDD4A /* BaseTabBarController.swift */,
 				11B594AC26B2DC2B00DDDD4A /* API.swift */,
+				11B594AF26B3EB9D00DDDD4A /* Tabbar.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -193,6 +201,15 @@
 				11B594A626B1939000DDDD4A /* ThirdViewController.swift */,
 			);
 			path = Third;
+			sourceTree = "<group>";
+		};
+		11E6BB2426B4FA70003C6DD5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				11E6BB2726B4FBC8003C6DD5 /* city.png */,
+				11E6BB2526B4FA8F003C6DD5 /* launch.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		237388AFCFD6EC3425C5230C /* Frameworks */ = {
@@ -309,6 +326,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E6BB2826B4FBC8003C6DD5 /* city.png in Resources */,
+				11E6BB2626B4FA8F003C6DD5 /* launch.png in Resources */,
 				11B5947626B1534A00DDDD4A /* LaunchScreen.storyboard in Resources */,
 				11B5947326B1534A00DDDD4A /* Assets.xcassets in Resources */,
 			);
@@ -380,6 +399,7 @@
 				11B594A526B1937F00DDDD4A /* SettingViewController.swift in Sources */,
 				11B5949B26B1921100DDDD4A /* BaseTabBarController.swift in Sources */,
 				11B5946A26B1534600DDDD4A /* AppDelegate.swift in Sources */,
+				11B594B026B3EB9D00DDDD4A /* Tabbar.swift in Sources */,
 				11B5949D26B192B600DDDD4A /* BaseNavigationController.swift in Sources */,
 				11B594A726B1939100DDDD4A /* ThirdViewController.swift in Sources */,
 				11B594A326B1936C00DDDD4A /* HomeViewController.swift in Sources */,
