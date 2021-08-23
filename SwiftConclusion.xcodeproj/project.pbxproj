@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		114A6DBF26CE45F1003C8525 /* Micro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A6DBE26CE45F1003C8525 /* Micro.swift */; };
+		114A6DC126CE472D003C8525 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A6DC026CE472D003C8525 /* HomeTableViewCell.swift */; };
+		114A6DC326CE4E65003C8525 /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A6DC226CE4E65003C8525 /* AlamofireViewController.swift */; };
 		11B5946A26B1534600DDDD4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B5946926B1534600DDDD4A /* AppDelegate.swift */; };
 		11B5947326B1534A00DDDD4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B5947226B1534A00DDDD4A /* Assets.xcassets */; };
 		11B5947626B1534A00DDDD4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B5947426B1534A00DDDD4A /* LaunchScreen.storyboard */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		114A6DBE26CE45F1003C8525 /* Micro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Micro.swift; sourceTree = "<group>"; };
+		114A6DC026CE472D003C8525 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		114A6DC226CE4E65003C8525 /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		11B5946626B1534600DDDD4A /* SwiftConclusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConclusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B5946926B1534600DDDD4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11B5947226B1534A00DDDD4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,6 +109,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		114A6DBC26CE45BA003C8525 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				114A6DBD26CE45E1003C8525 /* Common */,
+				11E6BB2426B4FA70003C6DD5 /* images */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		114A6DBD26CE45E1003C8525 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				114A6DBE26CE45F1003C8525 /* Micro.swift */,
+				11B594AC26B2DC2B00DDDD4A /* API.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		11B5945D26B1534600DDDD4A = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +152,7 @@
 		11B5946826B1534600DDDD4A /* SwiftConclusion */ = {
 			isa = PBXGroup;
 			children = (
-				11E6BB2426B4FA70003C6DD5 /* images */,
+				114A6DBC26CE45BA003C8525 /* Other */,
 				11B5946926B1534600DDDD4A /* AppDelegate.swift */,
 				11B594A126B1930D00DDDD4A /* Third */,
 				11B594A026B192FC00DDDD4A /* Setting */,
@@ -173,7 +197,6 @@
 			children = (
 				11B5949C26B192B600DDDD4A /* BaseNavigationController.swift */,
 				11B5949A26B1921100DDDD4A /* BaseTabBarController.swift */,
-				11B594AC26B2DC2B00DDDD4A /* API.swift */,
 				11B594AF26B3EB9D00DDDD4A /* Tabbar.swift */,
 			);
 			path = Base;
@@ -183,6 +206,8 @@
 			isa = PBXGroup;
 			children = (
 				11B594A226B1936C00DDDD4A /* HomeViewController.swift */,
+				114A6DC026CE472D003C8525 /* HomeTableViewCell.swift */,
+				114A6DC226CE4E65003C8525 /* AlamofireViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -400,8 +425,11 @@
 				11B5949B26B1921100DDDD4A /* BaseTabBarController.swift in Sources */,
 				11B5946A26B1534600DDDD4A /* AppDelegate.swift in Sources */,
 				11B594B026B3EB9D00DDDD4A /* Tabbar.swift in Sources */,
+				114A6DBF26CE45F1003C8525 /* Micro.swift in Sources */,
 				11B5949D26B192B600DDDD4A /* BaseNavigationController.swift in Sources */,
+				114A6DC126CE472D003C8525 /* HomeTableViewCell.swift in Sources */,
 				11B594A726B1939100DDDD4A /* ThirdViewController.swift in Sources */,
+				114A6DC326CE4E65003C8525 /* AlamofireViewController.swift in Sources */,
 				11B594A326B1936C00DDDD4A /* HomeViewController.swift in Sources */,
 				11B594AD26B2DC2B00DDDD4A /* API.swift in Sources */,
 			);
