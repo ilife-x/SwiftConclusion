@@ -17,8 +17,10 @@ class BaseTabBarController: UITabBarController {
 
 
         addChild("Home", "tabbar_home_nomal", "tabbar_home_hilight", HomeViewController.self)
+        addChild("Ani", "tabbar_animation_nomal", "tabbar_animation_hilight", AnimationViewController.self)
         addChild("Setting", "tabbar_third_normal", "tabbar_third_hilight", ThirdViewController.self)
         addChild("Third", "tabbar_setting_nomal", "tabbar_setting_hilight", SettingViewController.self)
+
 
 
     }
