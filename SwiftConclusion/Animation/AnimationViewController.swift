@@ -12,18 +12,15 @@ class AnimationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setupUI()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setupUI() {
+        let ctView = CustomView()
+        ctView.frame = CGRect(x: 0, y: 0, width: kScreenHeight, height: 300)
+        view.addSubview(ctView)
+        
     }
-    */
+
 
 }

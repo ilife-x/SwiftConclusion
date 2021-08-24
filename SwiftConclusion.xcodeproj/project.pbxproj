@@ -23,6 +23,8 @@
 		11B594AD26B2DC2B00DDDD4A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B594AC26B2DC2B00DDDD4A /* API.swift */; };
 		11B594B026B3EB9D00DDDD4A /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B594AF26B3EB9D00DDDD4A /* Tabbar.swift */; };
 		11C761D226D3A8BB00A52F8D /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C761D126D3A8BB00A52F8D /* AnimationViewController.swift */; };
+		11C761D426D4875A00A52F8D /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C761D326D4875A00A52F8D /* CustomView.swift */; };
+		11C761D626D48CAD00A52F8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C761D526D48CAD00A52F8D /* QuartzCore.framework */; };
 		11E6BB2626B4FA8F003C6DD5 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E6BB2526B4FA8F003C6DD5 /* launch.png */; };
 		11E6BB2826B4FBC8003C6DD5 /* city.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E6BB2726B4FBC8003C6DD5 /* city.png */; };
 		91824234AABF7E665480C936 /* Pods_SwiftConclusion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B29DB3FCD7CBF8DA052B728 /* Pods_SwiftConclusion.framework */; };
@@ -69,6 +71,8 @@
 		11B594AC26B2DC2B00DDDD4A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		11B594AF26B3EB9D00DDDD4A /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
 		11C761D126D3A8BB00A52F8D /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		11C761D326D4875A00A52F8D /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		11C761D526D48CAD00A52F8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		11E6BB2526B4FA8F003C6DD5 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		11E6BB2726B4FBC8003C6DD5 /* city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city.png; sourceTree = "<group>"; };
 		55E532E3B280AA77E95B6460 /* Pods-SwiftConclusion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftConclusion.release.xcconfig"; path = "Target Support Files/Pods-SwiftConclusion/Pods-SwiftConclusion.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C761D626D48CAD00A52F8D /* QuartzCore.framework in Frameworks */,
 				91824234AABF7E665480C936 /* Pods_SwiftConclusion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				11C761D126D3A8BB00A52F8D /* AnimationViewController.swift */,
+				11C761D326D4875A00A52F8D /* CustomView.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -251,6 +257,7 @@
 		237388AFCFD6EC3425C5230C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				11C761D526D48CAD00A52F8D /* QuartzCore.framework */,
 				6B29DB3FCD7CBF8DA052B728 /* Pods_SwiftConclusion.framework */,
 			);
 			name = Frameworks;
@@ -438,6 +445,7 @@
 				11C761D226D3A8BB00A52F8D /* AnimationViewController.swift in Sources */,
 				11B594B026B3EB9D00DDDD4A /* Tabbar.swift in Sources */,
 				114A6DBF26CE45F1003C8525 /* Micro.swift in Sources */,
+				11C761D426D4875A00A52F8D /* CustomView.swift in Sources */,
 				11B5949D26B192B600DDDD4A /* BaseNavigationController.swift in Sources */,
 				114A6DC126CE472D003C8525 /* HomeTableViewCell.swift in Sources */,
 				11B594A726B1939100DDDD4A /* ThirdViewController.swift in Sources */,
