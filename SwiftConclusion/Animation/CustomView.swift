@@ -35,8 +35,41 @@ class CustomView: UIView {
 //        drawContextStackTest(rect)
 //        drawRectRotate(rect)
 //        drawRectTranslate(rect)
-        drawRectScale(rect)
+//        drawRectScale(rect)
+//        clipImgAsCtx(rect)
+        clipImgAsCtx2(rect)
+
     }
+    
+    //12.按路径切图
+    //12.2
+    func clipImgAsCtx2(_ rect:CGRect) {
+        //1.将图形上下文裁剪出一个形状
+        guard let ctx = UIGraphicsGetCurrentContext() else {return}
+        ctx.move(to: CGPoint(x: 100, y: 100))
+        ctx.addLine(to: CGPoint(x: 100, y: 175))
+        ctx.addLine(to: CGPoint(x: 130, y: 150))
+        ctx.addLine(to: CGPoint(x: 170, y: 150))
+
+        ctx.closePath()
+        ctx.clip()
+        //2.在裁剪好的图形上下文中绘制
+        let img = UIImage(named: "zhutou.jpg")
+        img?.draw(at: CGPoint(x: 100, y: 100))
+    }
+    
+    //12.1
+    func clipImgAsCtx(_ rect:CGRect) {
+        //1.将图形上下文裁剪出一个形状
+        guard let ctx = UIGraphicsGetCurrentContext() else {return}
+        ctx.addArc(center: CGPoint(x: 175, y: 175), radius: 75, startAngle: 0.0, endAngle: .pi * 2, clockwise: false)
+        ctx.clip()
+        //2.在裁剪好的图形上下文中绘制
+        let img = UIImage(named: "zhutou.jpg")
+        img?.draw(at: CGPoint(x: 100, y: 100))
+    }
+    
+    
     //11.矩阵操作 平移/旋转/缩放
     func drawRectRotate(_ rect:CGRect) {
         

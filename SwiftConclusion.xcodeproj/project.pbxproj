@@ -25,6 +25,11 @@
 		11C761D226D3A8BB00A52F8D /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C761D126D3A8BB00A52F8D /* AnimationViewController.swift */; };
 		11C761D426D4875A00A52F8D /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C761D326D4875A00A52F8D /* CustomView.swift */; };
 		11C761D626D48CAD00A52F8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C761D526D48CAD00A52F8D /* QuartzCore.framework */; };
+		11C761DC26D72A8100A52F8D /* zhutou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11C761DB26D72A8100A52F8D /* zhutou.jpg */; };
+		11C761DE26D7366100A52F8D /* SliderCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C761DD26D7366100A52F8D /* SliderCircleView.swift */; };
+		11C761E026D7487900A52F8D /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C761DF26D7487900A52F8D /* CircleProgressView.swift */; };
+		11C761E426D7793B00A52F8D /* PattenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C761E326D7793B00A52F8D /* PattenView.swift */; };
+		11C761E626D798F100A52F8D /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C761E526D798F100A52F8D /* BackgroundView.swift */; };
 		11E6BB2626B4FA8F003C6DD5 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E6BB2526B4FA8F003C6DD5 /* launch.png */; };
 		11E6BB2826B4FBC8003C6DD5 /* city.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E6BB2726B4FBC8003C6DD5 /* city.png */; };
 		91824234AABF7E665480C936 /* Pods_SwiftConclusion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B29DB3FCD7CBF8DA052B728 /* Pods_SwiftConclusion.framework */; };
@@ -73,6 +78,11 @@
 		11C761D126D3A8BB00A52F8D /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		11C761D326D4875A00A52F8D /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		11C761D526D48CAD00A52F8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		11C761DB26D72A8100A52F8D /* zhutou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhutou.jpg; sourceTree = "<group>"; };
+		11C761DD26D7366100A52F8D /* SliderCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCircleView.swift; sourceTree = "<group>"; };
+		11C761DF26D7487900A52F8D /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		11C761E326D7793B00A52F8D /* PattenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PattenView.swift; sourceTree = "<group>"; };
+		11C761E526D798F100A52F8D /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		11E6BB2526B4FA8F003C6DD5 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		11E6BB2726B4FBC8003C6DD5 /* city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city.png; sourceTree = "<group>"; };
 		55E532E3B280AA77E95B6460 /* Pods-SwiftConclusion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftConclusion.release.xcconfig"; path = "Target Support Files/Pods-SwiftConclusion/Pods-SwiftConclusion.release.xcconfig"; sourceTree = "<group>"; };
@@ -240,7 +250,11 @@
 			isa = PBXGroup;
 			children = (
 				11C761D126D3A8BB00A52F8D /* AnimationViewController.swift */,
+				11C761E326D7793B00A52F8D /* PattenView.swift */,
 				11C761D326D4875A00A52F8D /* CustomView.swift */,
+				11C761DD26D7366100A52F8D /* SliderCircleView.swift */,
+				11C761DF26D7487900A52F8D /* CircleProgressView.swift */,
+				11C761E526D798F100A52F8D /* BackgroundView.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -248,6 +262,7 @@
 		11E6BB2426B4FA70003C6DD5 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				11C761DB26D72A8100A52F8D /* zhutou.jpg */,
 				11E6BB2726B4FBC8003C6DD5 /* city.png */,
 				11E6BB2526B4FA8F003C6DD5 /* launch.png */,
 			);
@@ -371,6 +386,7 @@
 			files = (
 				11E6BB2826B4FBC8003C6DD5 /* city.png in Resources */,
 				11E6BB2626B4FA8F003C6DD5 /* launch.png in Resources */,
+				11C761DC26D72A8100A52F8D /* zhutou.jpg in Resources */,
 				11B5947626B1534A00DDDD4A /* LaunchScreen.storyboard in Resources */,
 				11B5947326B1534A00DDDD4A /* Assets.xcassets in Resources */,
 			);
@@ -441,13 +457,17 @@
 			files = (
 				11B594A526B1937F00DDDD4A /* SettingViewController.swift in Sources */,
 				11B5949B26B1921100DDDD4A /* BaseTabBarController.swift in Sources */,
+				11C761E426D7793B00A52F8D /* PattenView.swift in Sources */,
+				11C761E026D7487900A52F8D /* CircleProgressView.swift in Sources */,
 				11B5946A26B1534600DDDD4A /* AppDelegate.swift in Sources */,
 				11C761D226D3A8BB00A52F8D /* AnimationViewController.swift in Sources */,
 				11B594B026B3EB9D00DDDD4A /* Tabbar.swift in Sources */,
+				11C761E626D798F100A52F8D /* BackgroundView.swift in Sources */,
 				114A6DBF26CE45F1003C8525 /* Micro.swift in Sources */,
 				11C761D426D4875A00A52F8D /* CustomView.swift in Sources */,
 				11B5949D26B192B600DDDD4A /* BaseNavigationController.swift in Sources */,
 				114A6DC126CE472D003C8525 /* HomeTableViewCell.swift in Sources */,
+				11C761DE26D7366100A52F8D /* SliderCircleView.swift in Sources */,
 				11B594A726B1939100DDDD4A /* ThirdViewController.swift in Sources */,
 				114A6DC326CE4E65003C8525 /* AlamofireViewController.swift in Sources */,
 				11B594A326B1936C00DDDD4A /* HomeViewController.swift in Sources */,
