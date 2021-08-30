@@ -11,6 +11,7 @@ class BackgroundView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
+        self.backgroundColor = .white
     }
     
     required init?(coder: NSCoder) {
@@ -23,7 +24,7 @@ class BackgroundView: UIView {
         }
         
         ctx.addRect(CGRect(x: 10, y: 10, width: 200, height: 200))
-        ctx.setFillColor(UIColor.green.cgColor)
+        ctx.setStrokeColor(UIColor.green.cgColor)
         ctx.strokePath()
     }
 }

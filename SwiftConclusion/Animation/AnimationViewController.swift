@@ -23,6 +23,10 @@ class AnimationViewController: UIViewController {
     }
     
     func setupUI() {
+        
+        let rightItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.camera, target: self, action: #selector(clickRightItem))
+        self.navigationItem.rightBarButtonItem = rightItem
+        
         view.addSubview(scrollView)
         let ctView = CustomView()
         ctView.frame = CGRect(x: 0, y: 0, width: kScreenHeight, height: 300)
@@ -59,10 +63,30 @@ class AnimationViewController: UIViewController {
         
     }
     
+   @objc func clickRightItem() {
+        print("-----")
+    
+    UIGraphicsBeginImageContextWithOptions(scrollView.contentSize, false, UIScreen.main.scale)
+    scrollView.layer.render(in: UIGraphicsGetCurrentContext()!)
+    let img = UIGraphicsGetImageFromCurrentImageContext()
+    //save,写入相册
+    UIImageWriteToSavedPhotosAlbum(img!, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
+    UIGraphicsEndImageContext()
+    
+   }
+    
+    @objc func image(_ image:UIImage, didFinishSavingWithError error:Error, contextInfo info:String)  {
+        debugPrint("保存")
+    }
+    
+
+    
+    //view->image
     func coverViewToImage(_ view:UIView) -> UIImage {
         
         UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, UIScreen.main.scale)
         
+        //view 转 image 的核心代码
         view.layer.render(in: UIGraphicsGetCurrentContext()!)
         let img =  UIGraphicsGetImageFromCurrentImageContext()
         
