@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11361E0126E701FA0073A0F0 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11361E0026E701FA0073A0F0 /* Film.swift */; };
 		114A6DBF26CE45F1003C8525 /* Micro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A6DBE26CE45F1003C8525 /* Micro.swift */; };
 		114A6DC126CE472D003C8525 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A6DC026CE472D003C8525 /* HomeTableViewCell.swift */; };
 		114A6DC326CE4E65003C8525 /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A6DC226CE4E65003C8525 /* AlamofireViewController.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11361E0026E701FA0073A0F0 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		114A6DBE26CE45F1003C8525 /* Micro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Micro.swift; sourceTree = "<group>"; };
 		114A6DC026CE472D003C8525 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		114A6DC226CE4E65003C8525 /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,14 @@
 				55E532E3B280AA77E95B6460 /* Pods-SwiftConclusion.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		11361DFF26E701CD0073A0F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11361E0026E701FA0073A0F0 /* Film.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		114A6DBC26CE45BA003C8525 /* Other */ = {
@@ -223,6 +233,7 @@
 		11B5949F26B192F300DDDD4A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				11361DFF26E701CD0073A0F0 /* Model */,
 				11B594A226B1936C00DDDD4A /* HomeViewController.swift */,
 				114A6DC026CE472D003C8525 /* HomeTableViewCell.swift */,
 				114A6DC226CE4E65003C8525 /* AlamofireViewController.swift */,
@@ -462,6 +473,7 @@
 				11B5946A26B1534600DDDD4A /* AppDelegate.swift in Sources */,
 				11C761D226D3A8BB00A52F8D /* AnimationViewController.swift in Sources */,
 				11B594B026B3EB9D00DDDD4A /* Tabbar.swift in Sources */,
+				11361E0126E701FA0073A0F0 /* Film.swift in Sources */,
 				11C761E626D798F100A52F8D /* BackgroundView.swift in Sources */,
 				114A6DBF26CE45F1003C8525 /* Micro.swift in Sources */,
 				11C761D426D4875A00A52F8D /* CustomView.swift in Sources */,

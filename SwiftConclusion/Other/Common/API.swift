@@ -8,7 +8,6 @@
 import Foundation
 struct API {
     static let imgrank = "http://m2.qiushibaike.com/article/list/imgrank"
-    static let binlog = "https://httpbin.org/get"
-
+    static let swapiDev = "https://swapi.dev/api/films"
 
 }

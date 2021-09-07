@@ -9,6 +9,7 @@ import UIKit
 
 class AlamofireViewController: UIViewController {
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,11 +26,12 @@ extension AlamofireViewController{
     }
     
     func loadData() {
-        AF.request(API.binlog).response{
-            response in
-            debugPrint(response)
+        AF.request(API.swapiDev)
+            .validate()
+            .responseDecodable(of: Films.self) { (response) in
+            guard let films = response.value else {return}
+                print(films)
         }
-        
     }
 
 }
