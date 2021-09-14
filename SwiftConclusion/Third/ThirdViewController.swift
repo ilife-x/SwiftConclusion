@@ -15,14 +15,9 @@ class ThirdViewController: UIViewController {
     override func viewDidLoad() {
        super.viewDidLoad()
 
-//       secureView.makeSecure()
     }
     
 
 }
 
-extension UIView {
-    func makeSecure() {
-        
-    }
-}
+
