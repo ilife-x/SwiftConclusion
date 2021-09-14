@@ -24,7 +24,7 @@ class SliderCircleView: UIView {
             radius = CGFloat(s.value)
         }
         s.frame = CGRect(x: 50, y: 280, width: kScreenWidth - 100, height: 20)
-        s.addAction(action, for: .touchDragInside)
+//        s.addAction(action, for: .touchDragInside)
         s.minimumValue = 10
         s.maximumValue = 100
         return s
