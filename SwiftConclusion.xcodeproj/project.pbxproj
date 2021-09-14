@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		11361E0126E701FA0073A0F0 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11361E0026E701FA0073A0F0 /* Film.swift */; };
+		1145149F26F048C900E612D4 /* FontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145149E26F048C900E612D4 /* FontViewController.swift */; };
+		114514A226F04C1300E612D4 /* DIN Alternate Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 114514A126F04C1300E612D4 /* DIN Alternate Bold.ttf */; };
 		114A6DBF26CE45F1003C8525 /* Micro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A6DBE26CE45F1003C8525 /* Micro.swift */; };
 		114A6DC126CE472D003C8525 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A6DC026CE472D003C8525 /* HomeTableViewCell.swift */; };
 		114A6DC326CE4E65003C8525 /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A6DC226CE4E65003C8525 /* AlamofireViewController.swift */; };
@@ -55,6 +57,8 @@
 
 /* Begin PBXFileReference section */
 		11361E0026E701FA0073A0F0 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		1145149E26F048C900E612D4 /* FontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontViewController.swift; sourceTree = "<group>"; };
+		114514A126F04C1300E612D4 /* DIN Alternate Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Alternate Bold.ttf"; sourceTree = "<group>"; };
 		114A6DBE26CE45F1003C8525 /* Micro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Micro.swift; sourceTree = "<group>"; };
 		114A6DC026CE472D003C8525 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		114A6DC226CE4E65003C8525 /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
@@ -136,9 +140,18 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		114514A026F04BE300E612D4 /* ttf */ = {
+			isa = PBXGroup;
+			children = (
+				114514A126F04C1300E612D4 /* DIN Alternate Bold.ttf */,
+			);
+			path = ttf;
+			sourceTree = "<group>";
+		};
 		114A6DBC26CE45BA003C8525 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				114514A026F04BE300E612D4 /* ttf */,
 				114A6DBD26CE45E1003C8525 /* Common */,
 				11E6BB2426B4FA70003C6DD5 /* images */,
 			);
@@ -237,6 +250,7 @@
 				11B594A226B1936C00DDDD4A /* HomeViewController.swift */,
 				114A6DC026CE472D003C8525 /* HomeTableViewCell.swift */,
 				114A6DC226CE4E65003C8525 /* AlamofireViewController.swift */,
+				1145149E26F048C900E612D4 /* FontViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -397,6 +411,7 @@
 			files = (
 				11E6BB2826B4FBC8003C6DD5 /* city.png in Resources */,
 				11E6BB2626B4FA8F003C6DD5 /* launch.png in Resources */,
+				114514A226F04C1300E612D4 /* DIN Alternate Bold.ttf in Resources */,
 				11C761DC26D72A8100A52F8D /* zhutou.jpg in Resources */,
 				11B5947626B1534A00DDDD4A /* LaunchScreen.storyboard in Resources */,
 				11B5947326B1534A00DDDD4A /* Assets.xcassets in Resources */,
@@ -478,6 +493,7 @@
 				114A6DBF26CE45F1003C8525 /* Micro.swift in Sources */,
 				11C761D426D4875A00A52F8D /* CustomView.swift in Sources */,
 				11B5949D26B192B600DDDD4A /* BaseNavigationController.swift in Sources */,
+				1145149F26F048C900E612D4 /* FontViewController.swift in Sources */,
 				114A6DC126CE472D003C8525 /* HomeTableViewCell.swift in Sources */,
 				11C761DE26D7366100A52F8D /* SliderCircleView.swift in Sources */,
 				11B594A726B1939100DDDD4A /* ThirdViewController.swift in Sources */,
