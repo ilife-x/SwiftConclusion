@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = rootVc
         window?.makeKeyAndVisible()
         
+        
         return true
     }
 

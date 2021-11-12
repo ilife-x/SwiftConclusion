@@ -8,6 +8,7 @@ PODS:
   - Instructions (2.1.0)
   - KakaJSON (1.1.2)
   - KeychainAccess (4.2.2)
+  - KMCGeigerCounter (0.3.0)
   - MJExtension (3.3.0)
   - Moya (14.0.0):
     - Moya/Core (= 14.0.0)
@@ -29,6 +30,7 @@ DEPENDENCIES:
   - Instructions (~> 2.1.0)
   - KakaJSON (~> 1.1.2)
   - KeychainAccess
+  - KMCGeigerCounter
   - MJExtension
   - Moya (~> 14.0)
   - Moya/RxSwift (~> 14.0)
@@ -39,6 +41,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - KakaJSON
+    - KMCGeigerCounter
     - Reveal-SDK
   trunk:
     - Alamofire
@@ -69,6 +72,7 @@ SPEC CHECKSUMS:
   Instructions: 2465e321dde23f7c8fc26fe8efddf605df80dfba
   KakaJSON: cc5ff50a8c1cfbb09413db8496cb709a209e6137
   KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  KMCGeigerCounter: a06cfeed4a96e8f9a49028abb3ba7e53604d3219
   MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   Reveal-SDK: 62ae124d57732c4fe7e88635274ca24054dd2d29
@@ -76,6 +80,6 @@ SPEC CHECKSUMS:
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
 
-PODFILE CHECKSUM: ebde58ff2c0646db27fc78f05c7a1d02f4b5ac3f
+PODFILE CHECKSUM: e888fce41a7b0c277b560d1e03e5760cb8b12847
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

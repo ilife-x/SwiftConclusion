@@ -4,6 +4,7 @@ ${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
 ${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework
 ${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework
 ${BUILT_PRODUCTS_DIR}/Instructions/Instructions.framework
+${BUILT_PRODUCTS_DIR}/KMCGeigerCounter/KMCGeigerCounter.framework
 ${BUILT_PRODUCTS_DIR}/KakaJSON/KakaJSON.framework
 ${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework
 ${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework
@@ -11,4 +12,4 @@ ${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
 ${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
 ${BUILT_PRODUCTS_DIR}/Spring/Spring.framework
-${PODS_XCFRAMEWORKS_BUILD_DIR}/RevealServer/RevealServer.framework/RevealServer
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Reveal-SDK/RevealServer.framework/RevealServer

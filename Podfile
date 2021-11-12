@@ -47,7 +47,7 @@ target 'SwiftConclusion' do
 #    pod 'Kingfisher', '~> 7.0'
     pod 'KakaJSON', '~> 1.1.2'
 
-
+    pod 'KMCGeigerCounter'
 
 
 
